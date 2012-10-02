@@ -8,4 +8,17 @@
 
 (function($) {
 
+	var filterWords = {
+		init: function(jsonArray){
+			$.each(jsonArray, function(i){
+				
+			});
+		}
+	};
+	
+	$.filterWords = function(jsonArray){
+		var obj = Object.create(filterWords);
+		obj.init(jsonArray);
+	};
+	
 }(jQuery));
