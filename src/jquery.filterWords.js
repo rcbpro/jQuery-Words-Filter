@@ -34,7 +34,7 @@
 	
 	$.filterWords.defaultJsonArray = ["nissan","toyota", "hyundai", "maruti", "suzuki", "merzidis-benz", "bmw", "audi", "isuzu"];
 	$.filterWords.defaultInputType = "checkbox";
-	$.filterWords.defaultWrapperDivClass = ["wordsFilterWrapper", "";
+	$.filterWords.defaultWrapperDivClass = ["wordsFilterWrapper", ""];
 	$.filterWords.defaultCss =  [
 								  {
 									  'width': '300px', 
